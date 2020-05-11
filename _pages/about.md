@@ -19,3 +19,9 @@ The best way to reach me is by email. I have profiles on social media, but I rar
 ## My name
 
 In Russian, my name is Сергей Пашахин which transliterates into Sergei (sometimes, Sergey) Pashakhin. As everyone in Russia, I have a patronym: Витальевич (Vitalievich). However, I prefer not to use it.
+
+## This website
+
+The last update: 2020-05-11.
+
+I am trying to keep it current. However, consult [my HSE profile](https://www.hse.ru/en/staff/pashakhin) as it updates more frequently.
