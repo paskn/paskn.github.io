@@ -10,7 +10,7 @@ redirect_from:
 
 Hi! I am a researcher studying the interaction of people with information and technologies in social and political contexts. Currently, my research focuses on the public sphere and media online. I am exploring computational approaches to communication and social sciences broadly.
 
-I am a research assistant and Ph.D. student at the HSE Social and Cognitive Informatics Laboratory. I also teach social media analytics and Python. Here, look at my [CV](https://paskn.github.io/files/cv.pdf).
+I am a research assistant and Ph.D. student at the [HSE Social and Cognitive Informatics Laboratory](https://scila.hse.ru/en/). I also teach social media analytics and Python. Here, look at my [CV](https://paskn.github.io/files/cv.pdf).
 
 ## How to contact me
 
@@ -22,6 +22,6 @@ In Russian, my name is Сергей Пашахин which transliterates into Ser
 
 ## This website
 
-The last update: 2020-05-11.
+The last update: 2020-06-23.
 
 I am trying to keep it current. However, consult [my HSE profile](https://www.hse.ru/en/staff/pashakhin) as it updates more frequently.
