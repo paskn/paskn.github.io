@@ -14,7 +14,7 @@ I am a research assistant and Ph.D. student at the [HSE Social and Cognitive Inf
 
 ## How to contact me
 
-The best way to reach me is by email. I have profiles on social media, but I rarely use them (except for research). The same story goes for the academic web; I prefer ORCID, Publons, and Google Scholar. I speak English and Russian.
+The best way to reach me is by email. I have profiles on social media, but I rarely use them (except for research). The same story goes for the academic web; I prefer [ORCID](https://orcid.org/0000-0003-0361-2064), [Publons](http://www.researcherid.com/rid/V-1803-2018), and [Google Scholar](https://scholar.google.ru/citations?user=D2IsWTEAAAAJ&hl=en). I speak English and Russian.
 
 ## My name
 
