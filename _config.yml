@@ -84,9 +84,9 @@ author:
   avatar           : "profile.png"
   bio              : "yet another introvert studying social 🤓"
   location         : "St Petersburg, Russia"
-  employer         : "Higher School of Economics (HSE)"
+  employer         : "HSE University"
   pubmed           : 
-  googlescholar    : "https://scholar.google.ru/citations?user=D2IsWTEAAAAJ&hl=en"
+  googlescholar    : #"https://scholar.google.ru/citations?user=D2IsWTEAAAAJ&hl=en"
   email            : "pashakhin[at]gmail.com"
   researchgate     : 
   uri              :
@@ -102,7 +102,7 @@ author:
   instagram        :
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/0000-0003-0361-2064"
+  orcid            : #"http://orcid.org/0000-0003-0361-2064"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
