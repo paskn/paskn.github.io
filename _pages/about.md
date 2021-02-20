@@ -8,22 +8,27 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am a researcher studying the interaction of people with information and technologies in social and political contexts. Currently, my research focuses on the public sphere and media online. I am exploring computational approaches to communication and social sciences broadly.
+Hi! I am a researcher studying the interaction of people with information and technologies in social and political contexts. Currently, my research focuses on the public sphere and media online. I also explore computational approaches to communication and social sciences.
 
-I am a research assistant and Ph.D. student at the [HSE Social and Cognitive Informatics Laboratory](https://scila.hse.ru/en/). I also teach social media analytics and Python. Here, look at my [CV](https://paskn.github.io/files/cv_2020-10-09.pdf).
+I am a junior research fellow and Ph.D. student at the [HSE Social and Cognitive Informatics Laboratory](https://scila.hse.ru/en/). I also teach social media analytics and Python. Here, look at my [CV](https://paskn.github.io/files/cv_2020-10-09.pdf).
 
 ## How to contact me
 
-The best way to reach me is by email. I have profiles on social media, but I rarely use them (except for research). The same story goes for the academic web; I prefer [ORCID](https://orcid.org/0000-0003-0361-2064), [Publons](http://www.researcherid.com/rid/V-1803-2018), and [Google Scholar](https://scholar.google.ru/citations?user=D2IsWTEAAAAJ&hl=en). I speak English and Russian.
+The best way to reach me is by email. I have profiles on social media, but I rarely use them (except for research). These are my current academic profiles:
+
+  * [ORCID](http://orcid.org/0000-0003-0361-2064)
+  * [Google Scholar](https://scholar.google.ru/citations?user=D2IsWTEAAAAJ&hl=en)
+  * [Publons](http://www.researcherid.com/rid/V-1803-2018)
+  * [Scopus](https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=57204818360&origin=inward)
 
 ## My name
 
 In Russian, my name is Сергей Пашахин which transliterates into Sergei (sometimes, Sergey) Pashakhin. As everyone in Russia, I have a patronym: Витальевич (Vitalievich). However, I prefer not to use it.
 
-I would appreciate it if you'd use gender-neutral pronouns they/them/their in communication with me. But don't feel pressured doing so, I will be fine with any other pronouns :)
+Pronouns: they/them/their.
 
 ## This website
 
-The last update: 2020-10-09.
+The last update: 2021-02-20.
 
-I am trying to keep it current. However, consult [my HSE profile](https://www.hse.ru/en/staff/pashakhin) as it updates more frequently.
+I am trying to keep it current. Consult [my HSE profile](https://www.hse.ru/en/staff/pashakhin) as it updates more often.
