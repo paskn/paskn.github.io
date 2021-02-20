@@ -10,7 +10,7 @@ redirect_from:
 
 Hi! I am a researcher studying the interaction of people with information and technologies in social and political contexts. Currently, my research focuses on the public sphere and media online. I also explore computational approaches to communication and social sciences.
 
-I am a junior research fellow and Ph.D. student at the [HSE Social and Cognitive Informatics Laboratory](https://scila.hse.ru/en/). I also teach social media analytics and Python. Here, look at my [CV](https://paskn.github.io/files/cv_2020-10-09.pdf).
+I am a junior research fellow and Ph.D. student at the [HSE Social and Cognitive Informatics Laboratory](https://scila.hse.ru/en/). I also teach social media analytics and Python. Here, look at my [CV](https://paskn.github.io/files/cv-2021-02-20.pdf).
 
 ## How to contact me
 
