@@ -1,0 +1,15 @@
+---
+title: "A Full-Cycle Methodology for News Topic Modeling and User Feedback Research"
+collection: publications
+permalink: /publication/socinfo18
+excerpt: 'Online social networks (OSNs) play an increasingly important role in news dissemination and consumption, attracting such traditional media outlets as TV channels with growing online audiences. Online news streams require appropriate instruments for analysis. One of such tools is topic modeling (TM). However, TM has a set of limitations (the problem of topic number choice and the algorithm instability, among others) that must be addressed specifically for the task of sociological online news analysis. In this paper, we propose a full- cycle methodology for such study: from choosing the optimal topic number to the extraction of stable topics and analysis of TM results. We illustrate it with an analysis of online news stream of 164,426 messages formed by twelve national TV channels during a one-year period in a leading Russian OSN. We show that our method can easily reveal associations between news topics and user feed- back, including sharing behavior. Additionally, we show how uneven distri- bution of document quantities and lengths over classes (TV channels) could affect TM results.'
+date: 2018
+venue: 'SocInfo 2018, LNCS 11185'
+paperurl: 'http://doi.org/10.1007/978-3-030-01129-1_19'
+citation: 'Koltsov, S., Pashakhin, S., & Dokuka, S. (2018). A Full-Cycle Methodology for News Topic Modeling and User Feedback Research. In S. Staab, O. Koltsova, & D. I. Ignatov (Eds.), Social Informatics (Vol. 11185, pp. 308–321). Springer International Publishing. https://doi.org/10.1007/978-3-030-01129-1_19'
+---
+Online social networks (OSNs) play an increasingly important role in news dissemination and consumption, attracting such traditional media outlets as TV channels with growing online audiences. Online news streams require appropriate instruments for analysis. One of such tools is topic modeling (TM). However, TM has a set of limitations (the problem of topic number choice and the algorithm instability, among others) that must be addressed specifically for the task of sociological online news analysis. In this paper, we propose a full- cycle methodology for such study: from choosing the optimal topic number to the extraction of stable topics and analysis of TM results. We illustrate it with an analysis of online news stream of 164,426 messages formed by twelve national TV channels during a one-year period in a leading Russian OSN. We show that our method can easily reveal associations between news topics and user feed- back, including sharing behavior. Additionally, we show how uneven distri- bution of document quantities and lengths over classes (TV channels) could affect TM results.
+
+[DOI](http://doi.org/10.1007/978-3-030-01129-1_19)
+
+Recommended citation: Koltsov, S., Pashakhin, S., & Dokuka, S. (2018). A Full-Cycle Methodology for News Topic Modeling and User Feedback Research. In S. Staab, O. Koltsova, & D. I. Ignatov (Eds.), Social Informatics (Vol. 11185, pp. 308–321). Springer International Publishing. https://doi.org/10.1007/978-3-030-01129-1_19
