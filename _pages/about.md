@@ -8,13 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am a researcher studying the interaction of people with information and technologies in social and political contexts. Currently, my research focuses on the public sphere and media online. I also explore computational approaches to communication and social sciences.
+Hi! I am studying the interaction of people with information and technologies in social and political contexts. Currently, my research focuses on the public sphere and media online. The public sphere, online and social media: how do they bring about social and political change? Can digital-trace data and computer science approaches help us understand better how the social is generated and changed?
 
-I am a junior research fellow and Ph.D. student at the [HSE Social and Cognitive Informatics Laboratory](https://scila.hse.ru/en/). I also teach social media analytics and Python. Here, look at my [CV](https://paskn.github.io/files/cv-2021-02-20.pdf).
+I am a junior research fellow and Ph.D. student at the [HSE Social and Cognitive Informatics Laboratory](https://scila.hse.ru/en/). I also teach Python and Digital Social Studies at HSE University. Here, look at my [CV](https://paskn.github.io/files/cv_2021-07-05.pdf) for details.
 
 ## How to contact me
 
-The best way to reach me is by email. I have profiles on social media, but I rarely use them (except for research). These are my current academic profiles:
+The best way to reach me is by email. I have profiles on social media, but I rarely use them. These are my current academic profiles:
 
   * [ORCID](http://orcid.org/0000-0003-0361-2064)
   * [Google Scholar](https://scholar.google.ru/citations?user=D2IsWTEAAAAJ&hl=en)
@@ -23,12 +23,12 @@ The best way to reach me is by email. I have profiles on social media, but I rar
 
 ## My name
 
-In Russian, my name is Сергей Пашахин which transliterates into Sergei (sometimes, Sergey) Pashakhin. As everyone in Russia, I have a patronym: Витальевич (Vitalievich). However, I prefer not to use it.
+In Russian, my name is Сергей Пашахин which transliterates into Sergei (sometimes, Sergey) Pashakhin. As everyone in Russia, I have a patronym: Витальевич (Vitalievich). I prefer not to use it.
 
 Pronouns: they/them/their.
 
 ## This website
 
-The last update: 2021-02-20.
+The last update: 2021-07-05.
 
-I am trying to keep it current. Consult [my HSE profile](https://www.hse.ru/en/staff/pashakhin) as it updates more often.
+I am trying to keep the site current. You can consult [my HSE profile](https://www.hse.ru/en/staff/pashakhin), sometimes it can be more up to date.
