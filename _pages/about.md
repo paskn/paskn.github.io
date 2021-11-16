@@ -10,7 +10,7 @@ redirect_from:
 
 I study the interaction of people with information and technologies in social and political contexts. Currently, my research focuses on the public sphere and media online. The public sphere, online and social media: how do they bring about social and political change? Can digital-trace data and computer science approaches help us understand better how the social is generated and changed?
 
-Currently, my position is a junior research fellow and Ph.D. student at the [HSE Social and Cognitive Informatics Laboratory](https://scila.hse.ru/en/). I also teach Python and Digital Social Studies at HSE University. See my [CV](https://paskn.github.io/files/cv_2021-07-05.pdf) for details.
+Currently, my position is a junior research fellow and Ph.D. student at the [HSE Social and Cognitive Informatics Laboratory](https://scila.hse.ru/en/). I also teach Python and Digital Social Studies at HSE University. See my [CV](https://paskn.github.io/files/cv_2021-11-17.pdf) for details.
 
 ## How to contact me
 
