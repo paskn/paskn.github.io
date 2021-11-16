@@ -33,6 +33,6 @@ Pronouns: they/them/their.
 
 ## This website
 
-The last update: 2021-07-05.
+The last update: 2021-11-17.
 
 I am trying to keep the site current. You can consult [my HSE profile](https://www.hse.ru/en/staff/pashakhin), sometimes it can be more up to date.
