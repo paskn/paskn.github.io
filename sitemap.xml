@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://pashakhin.org/</loc>
+    <lastmod>2022-05-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://pashakhin.org/articles/</loc>
+    <lastmod>2022-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://pashakhin.org/articles/smiia-bonn/</loc>
+    <lastmod>2022-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://pashakhin.org/articles/</loc>
+  </url><url>
+    <loc>http://pashakhin.org/categories/</loc>
+  </url><url>
+    <loc>http://pashakhin.org/papers/</loc>
+  </url><url>
+    <loc>http://pashakhin.org/tags/</loc>
+  </url>
+</urlset>
