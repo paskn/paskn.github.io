@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2022-10-29 Sat 20:22 -->
+<!-- 2022-10-29 Sat 21:50 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>PWM-CS-HS3: Computational Social Science III: Computational Text Analysis for Social Science</title>
@@ -23,22 +23,22 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgd97f773">Week 1</a>
+<li><a href="#orgdd8f282">Week 1</a>
 <ul>
-<li><a href="#orga85c5b3">General introduction (course structure &amp; requirements)</a></li>
-<li><a href="#org52b8a69">Text as data: Qualitative and quantitative research strategies</a></li>
-<li><a href="#org22a5c37">What is 'computational'?</a></li>
-<li><a href="#orgb608ce0">Text mining and why it is not computational text analysis</a></li>
-<li><a href="#org65762b4">Reading</a></li>
+<li><a href="#orgdc039e5">General introduction (course structure &amp; requirements)</a></li>
+<li><a href="#orga63631b">Text as data: Qualitative and quantitative research strategies</a></li>
+<li><a href="#orgfa62548">What is 'computational'?</a></li>
+<li><a href="#org0eb82e3">Text mining and why it is not computational text analysis</a></li>
+<li><a href="#org68e0279">Reading</a></li>
 </ul>
 </li>
-<li><a href="#org93977ed">Week 2</a>
+<li><a href="#org2f05cb8">Week 2</a>
 <ul>
-<li><a href="#orgbef6a8a">Is this data? Human languages and what they are good for</a></li>
-<li><a href="#org63734fa">Making data out of texts:</a></li>
-<li><a href="#org9bdf3c6">Your computer and tools</a></li>
-<li><a href="#orgd5cc642">Reading for the next meeting</a></li>
-<li><a href="#orgfc48b92">Pracice</a></li>
+<li><a href="#org732396a">Is this data? Human languages and what they are good for</a></li>
+<li><a href="#org8c48fbf">Making data out of texts:</a></li>
+<li><a href="#orgd9bf365">Your computer and tools</a></li>
+<li><a href="#orgbe58a87">Reading for the next meeting</a></li>
+<li><a href="#orga69bc48">Pracice</a></li>
 </ul>
 </li>
 </ul>
@@ -119,25 +119,34 @@ Social and political processes are often accompanied by a written text: from bur
 </ul>
 
 <p>
+<b>Acknowledgment</b>
+</p>
+<ul class="org-ul">
+<li>This seminar's development is guided by my experience working on a text analysis class with <a href="https://scholar.google.ru/citations?user=8VDN5LcAAAAJ&amp;hl=ru">Kirill Maslinsky</a>. At times, I also draw on Kirill's publicly available code.</li>
+<li><a href="https://scholar.google.ru/citations?view_op=list_works&amp;hl=ru&amp;user=TKzjr6QAAAAJ&amp;gmla=AJsN-F6Oh7qMCOJZMQThh76faWVnoweGA4FSzz2z-N6aDGPCxy2wD0wR5KEffXHidFxXS535KUQ2Pwumoc3AoiQWCiT5golucLTQZhJ1gsl7y55oCDWI-5J3hfxPEBqevAjdFLZBwltXLVSNwSA43hZ2nJzsSu9FnA">Sergei Koltsov</a> has taught me a lot about topic models, math and computer science.</li>
+</ul>
+
+<p>
 <b>Change log</b>
 </p>
 <ul class="org-ul">
+<li><span class="timestamp-wrapper"><span class="timestamp">&lt;2022-10-29 Sat&gt;</span></span>: Week 2 is revised. Added links to resources and short notes.</li>
 <li><span class="timestamp-wrapper"><span class="timestamp">&lt;2022-10-28 Fri&gt;</span></span>: Week 2 is adapted to our needs. Some cleaning of the web page.</li>
 <li><span class="timestamp-wrapper"><span class="timestamp">&lt;2022-10-23 Sun&gt;</span></span>: Added weeks 1 and 2. The website is online.</li>
 </ul>
 
 
-<div id="outline-container-orgd97f773" class="outline-2">
-<h2 id="orgd97f773">Week 1</h2>
-<div class="outline-text-2" id="text-orgd97f773">
+<div id="outline-container-orgdd8f282" class="outline-2">
+<h2 id="orgdd8f282">Week 1</h2>
+<div class="outline-text-2" id="text-orgdd8f282">
 </div>
-<div id="outline-container-orga85c5b3" class="outline-3">
-<h3 id="orga85c5b3">General introduction (course structure &amp; requirements)</h3>
-<div class="outline-text-3" id="text-orga85c5b3">
+<div id="outline-container-orgdc039e5" class="outline-3">
+<h3 id="orgdc039e5">General introduction (course structure &amp; requirements)</h3>
+<div class="outline-text-3" id="text-orgdc039e5">
 </div>
-<div id="outline-container-orgac71b1d" class="outline-4">
-<h4 id="orgac71b1d">Winter Semester:</h4>
-<div class="outline-text-4" id="text-orgac71b1d">
+<div id="outline-container-org5895ace" class="outline-4">
+<h4 id="org5895ace">Winter Semester:</h4>
+<div class="outline-text-4" id="text-org5895ace">
 <ul class="org-ul">
 <li>We meet on Wednesdays at 14.15.</li>
 <li>The weekly schedule and materials will be appearing on this website.</li>
@@ -145,18 +154,18 @@ Social and political processes are often accompanied by a written text: from bur
 </div>
 </div>
 
-<div id="outline-container-org0ffd7bb" class="outline-4">
-<h4 id="org0ffd7bb">Seminar paper</h4>
-<div class="outline-text-4" id="text-org0ffd7bb">
+<div id="outline-container-org9276f54" class="outline-4">
+<h4 id="org9276f54">Seminar paper</h4>
+<div class="outline-text-4" id="text-org9276f54">
 <ul class="org-ul">
 <li>Expected to be up to 10 pages long in the standard formatting.</li>
 <li>Consider linking the paper with your other papers on Computational Social Science.</li>
 <li>It could be a project or a review paper.</li>
 </ul>
 </div>
-<div id="outline-container-orgd7b19be" class="outline-5">
-<h5 id="orgd7b19be">Grading papers and code</h5>
-<div class="outline-text-5" id="text-orgd7b19be">
+<div id="outline-container-orgdbb151c" class="outline-5">
+<h5 id="orgdbb151c">Grading papers and code</h5>
+<div class="outline-text-5" id="text-orgdbb151c">
 <p>
 The necessary element are
 </p>
@@ -169,13 +178,13 @@ The necessary element are
 </div>
 </div>
 
-<div id="outline-container-org52b8a69" class="outline-3">
-<h3 id="org52b8a69">Text as data: Qualitative and quantitative research strategies</h3>
-<div class="outline-text-3" id="text-org52b8a69">
+<div id="outline-container-orga63631b" class="outline-3">
+<h3 id="orga63631b">Text as data: Qualitative and quantitative research strategies</h3>
+<div class="outline-text-3" id="text-orga63631b">
 </div>
-<div id="outline-container-org51dfa82" class="outline-4">
-<h4 id="org51dfa82">History of relying on written text to answer social science questions</h4>
-<div class="outline-text-4" id="text-org51dfa82">
+<div id="outline-container-org5f29dea" class="outline-4">
+<h4 id="org5f29dea">History of relying on written text to answer social science questions</h4>
+<div class="outline-text-4" id="text-org5f29dea">
 <p>
 We have been using text data long before we started using computers. Examples:
 </p>
@@ -189,9 +198,9 @@ We have been using text data long before we started using computers. Examples:
 </ul>
 </div>
 </div>
-<div id="outline-container-org2b0c9fb" class="outline-4">
-<h4 id="org2b0c9fb">Qualitative text analysis: how are we doing it still and why?</h4>
-<div class="outline-text-4" id="text-org2b0c9fb">
+<div id="outline-container-orgca7750c" class="outline-4">
+<h4 id="orgca7750c">Qualitative text analysis: how are we doing it still and why?</h4>
+<div class="outline-text-4" id="text-orgca7750c">
 <ul class="org-ul">
 <li><a href="https://en.wikipedia.org/wiki/Grounded_theory">Grounded theory</a></li>
 </ul>
@@ -200,9 +209,9 @@ We have been using text data long before we started using computers. Examples:
 </ul>
 </div>
 </div>
-<div id="outline-container-orgdb3d891" class="outline-4">
-<h4 id="orgdb3d891">Content analysis: where it all started where it is now?</h4>
-<div class="outline-text-4" id="text-orgdb3d891">
+<div id="outline-container-orgcd5d5b9" class="outline-4">
+<h4 id="orgcd5d5b9">Content analysis: where it all started where it is now?</h4>
+<div class="outline-text-4" id="text-orgcd5d5b9">
 <ul class="org-ul">
 <li><a href="https://en.wikipedia.org/wiki/Content_analysis">Content analysis</a>:
 <ul class="org-ul">
@@ -214,38 +223,38 @@ We have been using text data long before we started using computers. Examples:
 </div>
 </div>
 
-<div id="outline-container-org22a5c37" class="outline-3">
-<h3 id="org22a5c37">What is 'computational'?</h3>
-<div class="outline-text-3" id="text-org22a5c37">
+<div id="outline-container-orgfa62548" class="outline-3">
+<h3 id="orgfa62548">What is 'computational'?</h3>
+<div class="outline-text-3" id="text-orgfa62548">
 <p>
 By 'computational' we usually mean something done with the use of computers. In this sense, computational text analysis is such an  analysis that requires a computer to get a result. Today, it might seem strange to focus on this word but it serves to distinguish the types of task by their resources. For instance, close reading&#x2014;a qualitative method&#x2014;does not per se requires computers although it is hard to imagine that today. The same goes for content analysis, a method developed during the WWI. In principle, content analysis does not require a computer, you can do it using pen and paper. However, when the amounts of data become so large that one human or a small research group is unable to analyse it, we draw on the strength of computers. Thus, computational in our setting means to use computers for the heavy lifting in a project.
 </p>
 </div>
 </div>
-<div id="outline-container-orgb608ce0" class="outline-3">
-<h3 id="orgb608ce0">Text mining and why it is not computational text analysis</h3>
-<div class="outline-text-3" id="text-orgb608ce0">
+<div id="outline-container-org0eb82e3" class="outline-3">
+<h3 id="org0eb82e3">Text mining and why it is not computational text analysis</h3>
+<div class="outline-text-3" id="text-org0eb82e3">
 <p>
 We have to distinguish between text mining and computational text analysis. You may think of these two as intersecting sets of tools, techniques, and approaches. The difference between the two is that text mining is a catch-all label from the industry (i.e. data science), while computational text analysis is associated more with efforts in academic science to use large amounts of text data for theory- and model-building. If the former usually focuses on the practical tasks, the latter aims to contribute to our understanding of how the world works. In this seminar, I will unravel the academic perspective.
 </p>
 </div>
 </div>
-<div id="outline-container-org65762b4" class="outline-3">
-<h3 id="org65762b4">Reading</h3>
-<div class="outline-text-3" id="text-org65762b4">
+<div id="outline-container-org68e0279" class="outline-3">
+<h3 id="org68e0279">Reading</h3>
+<div class="outline-text-3" id="text-org68e0279">
 </div>
-<div id="outline-container-org378e0e5" class="outline-4">
-<h4 id="org378e0e5">Discussing on the next meeting:</h4>
-<div class="outline-text-4" id="text-org378e0e5">
+<div id="outline-container-orgc27bd18" class="outline-4">
+<h4 id="orgc27bd18">Discussing on the next meeting:</h4>
+<div class="outline-text-4" id="text-orgc27bd18">
 <ul class="org-ul">
 <li>Grimmer, J., &amp; Stewart, B. M. (2013). Text as Data: The Promise and Pitfalls of Automatic Content Analysis Methods for Political Texts. Political Analysis, 21(03), 267–297. <a href="https://doi.org/10.1093/pan/mps028">https://doi.org/10.1093/pan/mps028</a></li>
 <li>Nguyen, D., Liakata, M., DeDeo, S., Eisenstein, J., Mimno, D., Tromble, R., &amp; Winters, J. (2020). How We Do Things With Words: Analyzing Text as Social and Cultural Data. Frontiers in Artificial Intelligence, 3, 62. <a href="https://doi.org/10.3389/frai.2020.00062">https://doi.org/10.3389/frai.2020.00062</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orge89128f" class="outline-4">
-<h4 id="orge89128f">Best practices of reproducible researcher (not discussing on the next meeting)</h4>
-<div class="outline-text-4" id="text-orge89128f">
+<div id="outline-container-org86e537e" class="outline-4">
+<h4 id="org86e537e">Best practices of reproducible researcher (not discussing on the next meeting)</h4>
+<div class="outline-text-4" id="text-org86e537e">
 <ul class="org-ul">
 <li>Take a look at these papers<sup><a id="fnr.2.100" class="footref" href="#fn.2" role="doc-backlink">2</a></sup>. Knowledge of these approaches will help you with your paper. It will help you to communicate and collaborate with people that come from computer science or program development. It is also helpful if you are planning on working in the industry.</li>
 </ul>
@@ -254,43 +263,155 @@ We have to distinguish between text mining and computational text analysis. You 
 </div>
 </div>
 
-<div id="outline-container-org93977ed" class="outline-2">
-<h2 id="org93977ed">Week 2</h2>
-<div class="outline-text-2" id="text-org93977ed">
+<div id="outline-container-org2f05cb8" class="outline-2">
+<h2 id="org2f05cb8">Week 2</h2>
+<div class="outline-text-2" id="text-org2f05cb8">
 </div>
-<div id="outline-container-orgbef6a8a" class="outline-3">
-<h3 id="orgbef6a8a">Is this data? Human languages and what they are good for</h3>
-<div class="outline-text-3" id="text-orgbef6a8a">
+<div id="outline-container-org732396a" class="outline-3">
+<h3 id="org732396a">Is this data? Human languages and what they are good for</h3>
+<div class="outline-text-3" id="text-org732396a">
 <ul class="org-ul">
 <li>Discussing the papers</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org63734fa" class="outline-3">
-<h3 id="org63734fa">Making data out of texts:</h3>
-<div class="outline-text-3" id="text-org63734fa">
+<div id="outline-container-org8c48fbf" class="outline-3">
+<h3 id="org8c48fbf">Making data out of texts:</h3>
+<div class="outline-text-3" id="text-org8c48fbf">
 </div>
-<div id="outline-container-org719bfd3" class="outline-4">
-<h4 id="org719bfd3">Models and approaches to utilising unstructured text</h4>
-</div>
-<div id="outline-container-orgd684be0" class="outline-4">
-<h4 id="orgd684be0">What are bags of words?</h4>
-</div>
-<div id="outline-container-org7844943" class="outline-4">
-<h4 id="org7844943">What else is there beside bags-of-words models?</h4>
-</div>
-<div id="outline-container-orga69163c" class="outline-4">
-<h4 id="orga69163c">Can you create an ad hoc model of text for your research?</h4>
+<div id="outline-container-orgc6489a8" class="outline-4">
+<h4 id="orgc6489a8">Models and approaches to utilising unstructured text</h4>
+<div class="outline-text-4" id="text-orgc6489a8">
+<p>
+Raw text data or a collection of documents is not useful for to quantitatively test our hypotheses. To extract evidence from a collection of documents (we call it a <i>corpus</i>) we need to represent it in a formal way. In other words, we need a model of our corpus.
+</p>
+
+<p>
+What is a model? For our purposes, by model we mean a set of assumptions about our corpus that define units of analysis, variables and the structure of data (in broad sense). Model of a corpus is a simplified but useful version of our raw text data. It is simplified because we make decisions about what information contained in the raw text data we will use to extract evidence, and what information we will discard. Thus, in CAT we have to <i>explicitly</i> define what is signal and what is noise. It is useful because our model provides us with data (givens) that we need for our research purposes. It is another <i>explicit</i> decision that we make to make data out of our text. Here is an example.
+</p>
+
+<p>
+Imagine that we are studying internal email correspondence of a company or government agency. We have all emails sent and received by employees during a year. Our question is: what is the most persistent topic discussed by the employees?
+</p>
+
+<p>
+Take a look at an example email (you can find it on your phone or computer). It has several elements: <code>date</code>, <code>sender</code>, <code>receiver</code>, <code>subject</code> and <code>body</code>. What element of such a text file is most useful to answer our research question? The <code>body</code> has all the necessary information. However, messages vary greatly in their length and we do not have enough computing resources to use all the emails available to us to extract topic from the body. The <code>subject</code> of the message is much shorter, and people tend to use it to signal the recipient what an email is about. The <code>subject</code> is easier to use as it does not require much computational resources. Now, we make an explicit decision: discard everything from our data except for the subject and time. Next, we look at the <code>subject</code> element closer. What are the most useful elements of a <code>subject</code> string that can help to answer our question? One obvious choice would be nouns. OK, how many nouns from the subject string should we use? Here, again, we have to make a decision: one noun may work for some cases but not for the most, should we use all nouns?
+</p>
+
+<p>
+By making such decisions we build a representation of or document collections as data. We can measure frequencies of nouns in the subject line and test which appear more often that others. This model will enable us to estimate what nous correlate with each other. Note, that this is something we cannot do without explicitly made assumptions about what is signal and what is noise in our data. We have the following model of our corpus:
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">date</th>
+<th scope="col" class="org-left">noun</th>
+<th scope="col" class="org-right">message id</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">2022-10-21</td>
+<td class="org-left">money</td>
+<td class="org-right">1</td>
+</tr>
+
+<tr>
+<td class="org-right">2022-10-21</td>
+<td class="org-left">debt</td>
+<td class="org-right">1</td>
+</tr>
+
+<tr>
+<td class="org-right">2022-10-22</td>
+<td class="org-left">default</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-right">2022-10-22</td>
+<td class="org-left">extortion</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-right">2022-10-23</td>
+<td class="org-left">suicide</td>
+<td class="org-right">3</td>
+</tr>
+
+<tr>
+<td class="org-right">2022-10-23</td>
+<td class="org-left">debt</td>
+<td class="org-right">3</td>
+</tr>
+
+<tr>
+<td class="org-right">2022-10-23</td>
+<td class="org-left">PR</td>
+<td class="org-right">3</td>
+</tr>
+
+<tr>
+<td class="org-right">2022-10-23</td>
+<td class="org-left">money</td>
+<td class="org-right">3</td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 
-<div id="outline-container-org9bdf3c6" class="outline-3">
-<h3 id="org9bdf3c6">Your computer and tools</h3>
-<div class="outline-text-3" id="text-org9bdf3c6">
+
+
+<div id="outline-container-orgd8fe747" class="outline-4">
+<h4 id="orgd8fe747">What are bags of words?</h4>
+<div class="outline-text-4" id="text-orgd8fe747">
+<ul class="org-ul">
+<li>A common and simple model of text is <a href="https://en.wikipedia.org/wiki/Bag-of-words_model">the bag-of-words model</a>.</li>
+</ul>
 </div>
-<div id="outline-container-orgc602ca2" class="outline-4">
-<h4 id="orgc602ca2">Command Line Utilities</h4>
-<div class="outline-text-4" id="text-orgc602ca2">
+</div>
+<div id="outline-container-org6dad720" class="outline-4">
+<h4 id="org6dad720">What else is there beside bags-of-words models?</h4>
+<div class="outline-text-4" id="text-org6dad720">
+<ul class="org-ul">
+<li><a href="https://en.wikipedia.org/wiki/Language_model#Notable_language_models">Large language models</a> (LLMs)</li>
+<li><a href="https://en.wikipedia.org/wiki/Word_embedding">Word embedding</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Topic_model">Topic models</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)">Transformers</a> i.e. <a href="https://en.wikipedia.org/wiki/BERT_(language_model)">BERT</a>
+And much more.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org3a1d2bd" class="outline-4">
+<h4 id="org3a1d2bd">Can you create an ad hoc model of text for your research?</h4>
+<div class="outline-text-4" id="text-org3a1d2bd">
+<ul class="org-ul">
+<li>Yes, we did it in the example above about emails.</li>
+<li>But there are caveats that we will explore later.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgd9bf365" class="outline-3">
+<h3 id="orgd9bf365">Your computer and tools</h3>
+<div class="outline-text-3" id="text-orgd9bf365">
+</div>
+<div id="outline-container-org154fe67" class="outline-4">
+<h4 id="org154fe67">Command Line Utilities</h4>
+<div class="outline-text-4" id="text-org154fe67">
 <p>
 Text data usually is large data. For quick tasks such as glimpsing at the structure of your dataset or searching patters in the text it is much more efficient to use command line utilities.
 </p>
@@ -356,9 +477,9 @@ I am not saying that you <i>have to</i> study command line utilities <i>right no
 </div>
 
 
-<div id="outline-container-org41a143a" class="outline-4">
-<h4 id="org41a143a">Programming languages and their ecosystems</h4>
-<div class="outline-text-4" id="text-org41a143a">
+<div id="outline-container-org7526e79" class="outline-4">
+<h4 id="org7526e79">Programming languages and their ecosystems</h4>
+<div class="outline-text-4" id="text-org7526e79">
 <p>
 If you are ablolutely new to <code>R</code> and <code>RStudio</code>, take a look at this book:
 </p>
@@ -374,9 +495,9 @@ If you are ablolutely new to <code>R</code> and <code>RStudio</code>, take a loo
 </ul>
 </div>
 
-<div id="outline-container-org7913df7" class="outline-5">
-<h5 id="org7913df7">R: the primary sources for our practical work on the seminar</h5>
-<div class="outline-text-5" id="text-org7913df7">
+<div id="outline-container-org6fd8d60" class="outline-5">
+<h5 id="org6fd8d60">R: the primary sources for our practical work on the seminar</h5>
+<div class="outline-text-5" id="text-org6fd8d60">
 <ul class="org-ul">
 <li>Benoit, K., Watanabe, K., Wang, H., Nulty, P., Obeng, A., Müller, S., &amp; Matsuo, A. (2018). <code>quanteda</code>: An R package for the quantitative analysis of textual data. Journal of Open Source Software, 3(30), 774. <a href="https://doi.org/10.21105/joss.00774">https://doi.org/10.21105/joss.00774</a></li>
 <li>Silge, J., &amp; Robinson, D. (2017). <i>Text Mining with R: A Tidy Approach</i>. O’Reilly Media.  <a href="https://www.tidytextmining.com/">https://www.tidytextmining.com/</a></li>
@@ -387,9 +508,9 @@ If you are ablolutely new to <code>R</code> and <code>RStudio</code>, take a loo
 </div>
 </div>
 
-<div id="outline-container-orgd5cc642" class="outline-3">
-<h3 id="orgd5cc642">Reading for the next meeting</h3>
-<div class="outline-text-3" id="text-orgd5cc642">
+<div id="outline-container-orgbe58a87" class="outline-3">
+<h3 id="orgbe58a87">Reading for the next meeting</h3>
+<div class="outline-text-3" id="text-orgbe58a87">
 <p>
 <b>For discussion</b>
 </p>
@@ -410,9 +531,9 @@ If you are ablolutely new to <code>R</code> and <code>RStudio</code>, take a loo
 </div>
 </div>
 
-<div id="outline-container-orgfc48b92" class="outline-3">
-<h3 id="orgfc48b92">Pracice</h3>
-<div class="outline-text-3" id="text-orgfc48b92">
+<div id="outline-container-orga69bc48" class="outline-3">
+<h3 id="orga69bc48">Pracice</h3>
+<div class="outline-text-3" id="text-orga69bc48">
 <ul class="org-ul">
 <li>Set up R and RStudio on your computer.</li>
 <li>Review the demo scripts (find it in your mail box).</li>
@@ -440,7 +561,7 @@ If you are ablolutely new to <code>R</code> and <code>RStudio</code>, take a loo
 </div></div>
 <div id="postamble" class="status">
 <p class="author">Author: Sergei Pashakhin</p>
-<p class="date">Created: 2022-10-29 Sat 20:22</p>
+<p class="date">Created: 2022-10-29 Sat 21:50</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
