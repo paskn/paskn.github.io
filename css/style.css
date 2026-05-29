@@ -150,6 +150,7 @@ tr th,tr td{
 }
 
 table{margin-left:0;margin-bottom:0;border-color:collapse;border-spacing:0}
+table { display: block; width: max-content; max-width: 100%; overflow-x: auto; }
 
 .table-caption{font-size:100%;font-family:CommitMono;line-height:1rem;padding:5px}
 
@@ -162,3 +163,9 @@ tr:nth-child(odd){background:#f3eddf;padding:0;margin:0}
 tr:hover{background-color:#6c71c4;color:#fff}
 
 th{background-color:#073642;color:#f3eddf}
+
+@media (max-width: 600px) {
+    body { padding: 20px; }
+    tr th, tr td { font-size: 0.85rem; padding: 0 5px; }
+}
+
